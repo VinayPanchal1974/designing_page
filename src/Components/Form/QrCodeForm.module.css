@@ -1,0 +1,192 @@
+.fullDiv {
+    width: 100%;
+    margin: auto;
+    padding: 5vh;
+}
+
+.mainForm1 {
+    display: flex;
+    padding: 1vw 3vw;
+    border: 1px solid grey;
+}
+
+.left {
+    width: 50%;
+    /* background-color: red; */
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    padding: 4vh 3vh
+}
+
+.name1 {
+    /* background-color: pink; */
+    padding: 2vh
+}
+
+.name1 label {
+    font-weight: 500;
+}
+
+.name1 input {
+    width: 100%;
+    height: 4vh;
+    padding: 3vh 0vh;
+    margin-top: 5px;
+    border: 1px solid rgb(245, 245, 250);
+    background-color: rgb(245, 245, 250);
+    border-radius: 3px;
+}
+
+.type {
+    /* background-color: pink; */
+    padding: 2vh
+}
+
+.type label {
+    font-weight: 500;
+}
+
+.type select {
+    width: 100%;
+    height: 5.5vh;
+    padding: 0.5vh 0vh;
+    margin-top: 5px;
+    border: 1px solid rgb(245, 245, 250);
+    background-color: rgb(245, 245, 250);
+    border-radius: 3px;
+}
+
+
+
+.date {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: green; */
+    padding: 2vh
+}
+
+.date div label {
+    font-weight: 500;
+}
+
+.date div {
+    width: 49%;
+}
+
+.date div input {
+    width: 99%;
+    height: 4vh;
+    padding: 0.5vh 0vh;
+    margin-top: 5px;
+    border: 1px solid rgb(245, 245, 250);
+    background-color: rgb(245, 245, 250);
+    border-radius: 3px;
+}
+
+
+
+.fullDiv {
+    width: 100%;
+    margin: auto;
+}
+
+.mainForm1 {
+    display: flex;
+    padding: 1vw 4vw;
+    border: 1px solid grey;
+}
+
+.left {
+    width: 50%;
+    /* background-color: red; */
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    padding: 4vh 3vh
+}
+
+.name {
+    /* background-color: pink; */
+    padding: 2vh
+}
+
+.name label {
+    font-weight: 500;
+}
+
+.name input {
+    width: 100%;
+    height: 4vh;
+    padding: 0.5vh 0vh;
+    margin-top: 5px;
+    border: 1px solid rgb(245, 245, 250);
+    background-color: rgb(245, 245, 250);
+    border-radius: 3px;
+}
+
+.primary {
+    display: flex;
+    padding: 0vh 1vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.primary>div>p {
+    color: black;
+    font-weight: 600;
+    font-size: 3vh;
+
+}
+
+.right {
+    width: 50%;
+    /* background-color: yellow; */
+    /* border: 1px solid black; */
+    padding:4vh
+
+}
+.packageImage{
+ font-weight: 500;
+}
+.deleteBtn{
+    display: flex;
+    justify-content: end;
+    padding:2vh
+}
+.deleteBtn button{ 
+    display: flex;;
+    border:none;
+    background-color: transparent;
+    color: red;
+    align-items: center;
+
+}
+.deleteBtn button p{ 
+    color: red;
+    margin: 0;
+
+}
+
+@media (max-width:600px){
+    .mainForm1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .left {
+        width: 100%;
+        /* background-color: red; */
+        /* border: 1px solid green; */
+        display: flex;
+        flex-direction: column;
+        padding: 4vh 3vh
+    }
+    .right {
+        width: 100%;
+        /* background-color: yellow; */
+        /* border: 1px solid black; */
+        padding:4vh
+    
+    }
+}
+

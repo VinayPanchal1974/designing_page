@@ -1,0 +1,36 @@
+.addQr{
+    display: flex;
+    padding: 2vh 4vw;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.addQr > div > p{
+    color: rgb(38, 12, 50);
+    font-weight: 600;
+    font-size: 3vh;
+    margin:0
+    
+}
+.addQr > div > button{
+    border: 1px solid rgb(38, 12, 50);
+    background-color:white;
+    padding:1.5vh 4vh;
+    border-radius: 5px;
+}
+.addQr > div > button > p{
+    color:rgb(38, 12, 50);
+    margin:0px;
+
+}.right {
+    width: 50%;
+    background-color: yellow;
+    border: 1px solid black;
+
+}
+@media (max-width:600px){
+    .addQr{
+        display: flex;
+        flex-direction: column;
+    }
+}
